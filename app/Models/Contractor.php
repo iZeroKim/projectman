@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Contractor extends Model
 {
     use HasFactory;
+    function projectContractors(){
+        return $this->hasMany(Contractorprojects::class);
+    }
 }
