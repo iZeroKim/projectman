@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Contractor;
 use App\Project;
 use Illuminate\Http\Request;
 
@@ -14,7 +15,7 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        return Project::all();
+        return Project::with('contractors')->get();
     }
 
     /**
@@ -36,6 +37,9 @@ class ProjectController extends Controller
     public function store(Request $request)
     {
         $Project = Project::create($request->all());
+
+        $contractor = Contractor::find(1);
+        $Project->contractors()->attach($contractor);
         return response()->json($Project, 201);
     }
 

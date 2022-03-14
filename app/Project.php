@@ -14,5 +14,7 @@ class Project extends Model
         'admin_id'
     ];
 
-
+    public function contractors(){
+        return $this->belongsToMany(Contractor::class);
+    }
 }
