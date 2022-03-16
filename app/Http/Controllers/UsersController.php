@@ -51,7 +51,6 @@ class UsersController extends Controller
               'user' => $user
           ]);
         } else {
-       //if authentication is unsuccessfull, notice how I return json parameters
           return response()->json([
             'success' => false,
             'message' => 'Invalid Email or Password',
