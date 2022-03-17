@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/drawable/inputbackground.xml" value="0.1735" />
         <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/activity_main.xml" value="0.16304347826086957" />
+        <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/fragment_register.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/login_fragment.xml" value="0.12" />
+        <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/main_activity.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -12,5 +17,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.12" />
+      </ProjectState>
+    </option>
   </component>
 </project>
