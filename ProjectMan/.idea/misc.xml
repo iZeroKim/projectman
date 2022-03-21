@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/drawable/ic_next_24.xml" value="0.193" />
         <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/drawable/inputbackground.xml" value="0.1735" />
         <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/activity_main.xml" value="0.16304347826086957" />
-        <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/fragment_contractors.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/fragment_dashboard.xml" value="0.18" />
+        <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/fragment_projects.xml" value="0.25" />
         <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/fragment_register.xml" value="0.25" />
         <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/login_fragment.xml" value="0.12" />
         <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/main_activity.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/The projects/ProjectManagerApi/ProjectMan/app/src/main/res/layout/single_item.xml" value="0.22" />
       </map>
     </option>
   </component>
@@ -21,7 +25,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.12" />
+        <option name="scale" value="0.18" />
       </ProjectState>
     </option>
   </component>
