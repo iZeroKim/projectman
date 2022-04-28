@@ -39,11 +39,8 @@ use Illuminate\Support\Facades\Route;
     Route::put('contractors/{id}', 'ContractorController@update')->middleware('auth:api');
     Route::delete('contractor/{id}', 'ContractorController@destroy')->middleware('auth:api');
 
-
-
-
-//Administrators
-Route::post('register', 'UsersController@register');
-Route::post('login', 'UsersController@login');
+    //Administrators
+    Route::post('register', 'UsersController@register');
+    Route::post('login', 'UsersController@login');
 
 
