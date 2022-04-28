@@ -14,7 +14,8 @@ class ContractorController extends Controller
      */
     public function index()
     {
-        return Contractor::all();
+
+        return Contractor::select("*")->orderByDesc("id")->get();
     }
 
     /**

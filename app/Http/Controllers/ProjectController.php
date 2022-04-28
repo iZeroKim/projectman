@@ -15,7 +15,7 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        return Project::with('contractors')->get();
+        return Project::with('contractors')->orderByDesc("id")->get();
     }
 
     /**
